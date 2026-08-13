@@ -13,13 +13,13 @@ Every question comes with:
 
 | # | Topic | File |
 |---|-------|------|
-| 1 | Basic Programs (30 fundamentals) | [`01-BASIC.md`](./01-BASIC.md) |
-| 2 | Arrays & Strings | [`02-ARRAYS-AND-STRINGS.md`](./02-ARRAYS-AND-STRINGS.md) |
-| 3 | Linked List | [`03-LINKED-LIST.md`](./03-LINKED-LIST.md) |
-| 4 | Stack & Queue | [`04-STACK-AND-QUEUE.md`](./04-STACK-AND-QUEUE.md) |
-| 5 | HashMap | [`05-HASHMAP.md`](./05-HASHMAP.md) |
-| 6 | Recursion | [`06-RECURSION.md`](./06-RECURSION.md) |
-| 7 | FAQ Interview Questions | [`07-FAQ-INTERVIEW-QUESTIONS.md`](./07-FAQ-INTERVIEW-QUESTIONS.md) |
+| 1 | Basic Programs (30 fundamentals) | [`01-BASIC.md`](./docs/01-BASIC.md) |
+| 2 | Arrays & Strings | [`02-ARRAYS-AND-STRINGS.md`](./docs/02-ARRAYS-AND-STRINGS.md) |
+| 3 | Linked List | [`03-LINKED-LIST.md`](./docs/03-LINKED-LIST.md) |
+| 4 | Stack & Queue | [`04-STACK-AND-QUEUE.md`](./docs/04-STACK-AND-QUEUE.md) |
+| 5 | HashMap | [`05-HASHMAP.md`](./docs/05-HASHMAP.md) |
+| 6 | Recursion | [`06-RECURSION.md`](./docs/06-RECURSION.md) |
+| 7 | FAQ Interview Questions | [`07-FAQ-INTERVIEW-QUESTIONS.md`](./docs/07-FAQ-INTERVIEW-QUESTIONS.md) |
 
 ---
 
