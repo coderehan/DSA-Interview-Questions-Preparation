@@ -1074,4 +1074,108 @@ fun main() {
 
     var largest = arr[0]
 
-  
+    // Traverse array
+    for (i in 1 until size) {
+        if (arr[i] > largest) {
+            largest = arr[i]
+        }
+    }
+
+    println("Largest element = $largest")
+}
+```
+<details>
+<summary>📤 Output</summary>
+
+```
+Enter size of array:
+4
+Enter elements:
+3
+9
+1
+7
+Largest element = 9
+```
+</details>
+
+⏱ Time Complexity: O(n) 🗂 Space Complexity: O(n)
+
+---
+
+## 29. To find sum of natural numbers using recursion (take inputs from the user)
+
+```kotlin
+fun sum(n: Int): Int {
+
+    // Base case
+    if (n == 0)
+        return 0
+
+    // Recursive call
+    return n + sum(n - 1)
+}
+
+fun main() {
+
+    println("Enter a number:")
+    val n = readLine()!!.toInt()
+
+    val result = sum(n)
+
+    println("Sum of first $n natural numbers = $result")
+}
+```
+<details>
+<summary>📤 Output</summary>
+
+```
+Enter a number:
+5
+Sum of first 5 natural numbers = 15
+```
+</details>
+
+⏱ Time Complexity: O(n) 🗂 Space Complexity: O(n) — recursive call stack
+
+---
+
+## 30. To reverse a sentence using recursion (take inputs from the user)
+
+```kotlin
+fun reverseString(str: String) {
+
+    // Base case
+    if (str.isEmpty())
+        return
+
+    // Recursive call with substring from index 1
+    reverseString(str.substring(1))
+
+    // Print first character after recursion unwinds
+    print(str[0])
+}
+
+fun main() {
+
+    println("Enter a sentence:")
+    val input = readLine()!!
+
+    println("Reversed sentence:")
+    reverseString(input)
+}
+```
+<details>
+<summary>📤 Output</summary>
+
+```
+Enter a sentence:
+Hello Kotlin
+Reversed sentence:
+niltoK olleH
+```
+</details>
+
+⏱ Time Complexity: O(n²) — substring creates a new string each call 🗂 Space Complexity: O(n) — recursive call stack
+
+---
